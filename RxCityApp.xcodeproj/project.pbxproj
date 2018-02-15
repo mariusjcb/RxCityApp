@@ -13,9 +13,25 @@
 		7A2858FC20358AA700A20B94 /* RxCityApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A2858FA20358AA700A20B94 /* RxCityApp.xcdatamodeld */; };
 		7A2858FE20358AA700A20B94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A2858FD20358AA700A20B94 /* Assets.xcassets */; };
 		7A28590120358AA700A20B94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A2858FF20358AA700A20B94 /* LaunchScreen.storyboard */; };
+		7A28590D20358D8100A20B94 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A28590C20358D8100A20B94 /* Resource.swift */; };
+		7A28590F20358DE800A20B94 /* HTTPRequestMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A28590E20358DE800A20B94 /* HTTPRequestMethod.swift */; };
+		7A2859112035925800A20B94 /* APIBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2859102035925800A20B94 /* APIBase.swift */; };
+		7A285913203592CB00A20B94 /* APIPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A285912203592CB00A20B94 /* APIPath.swift */; };
+		7A2859152035930700A20B94 /* HTTPRequestScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2859142035930700A20B94 /* HTTPRequestScheme.swift */; };
+		7A2859172035944500A20B94 /* APIParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2859162035944500A20B94 /* APIParameter.swift */; };
+		7A28591A203594FE00A20B94 /* APIUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A285919203594FE00A20B94 /* APIUrl.swift */; };
+		7A28591C2035997400A20B94 /* CountriesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A28591B2035997400A20B94 /* CountriesAPI.swift */; };
+		7A28591E20359A9800A20B94 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A28591D20359A9800A20B94 /* Webservice.swift */; };
+		7A2859232035A16800A20B94 /* JSONDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2859222035A16800A20B94 /* JSONDecodable.swift */; };
+		7A2859252035A1EB00A20B94 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2859242035A1EB00A20B94 /* Country.swift */; };
+		7A2859272035AABA00A20B94 /* GenericJSONDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2859262035AABA00A20B94 /* GenericJSONDecodable.swift */; };
+		7B698D56DDCD917A250E6C3B /* Pods_RxCityApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 105307DA783AC529A6BB4896 /* Pods_RxCityApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		105307DA783AC529A6BB4896 /* Pods_RxCityApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxCityApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59DF7367B0EBC6BAACD99B96 /* Pods-RxCityApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxCityApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxCityApp/Pods-RxCityApp.release.xcconfig"; sourceTree = "<group>"; };
+		6C27C38039228FAF756FBF93 /* Pods-RxCityApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxCityApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxCityApp/Pods-RxCityApp.debug.xcconfig"; sourceTree = "<group>"; };
 		7A2858F020358AA700A20B94 /* RxCityApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxCityApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A2858F320358AA700A20B94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A2858F520358AA700A20B94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +40,18 @@
 		7A2858FD20358AA700A20B94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A28590020358AA700A20B94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A28590220358AA700A20B94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A28590C20358D8100A20B94 /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		7A28590E20358DE800A20B94 /* HTTPRequestMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequestMethod.swift; sourceTree = "<group>"; };
+		7A2859102035925800A20B94 /* APIBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIBase.swift; sourceTree = "<group>"; };
+		7A285912203592CB00A20B94 /* APIPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIPath.swift; sourceTree = "<group>"; };
+		7A2859142035930700A20B94 /* HTTPRequestScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequestScheme.swift; sourceTree = "<group>"; };
+		7A2859162035944500A20B94 /* APIParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIParameter.swift; sourceTree = "<group>"; };
+		7A285919203594FE00A20B94 /* APIUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIUrl.swift; sourceTree = "<group>"; };
+		7A28591B2035997400A20B94 /* CountriesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesAPI.swift; sourceTree = "<group>"; };
+		7A28591D20359A9800A20B94 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		7A2859222035A16800A20B94 /* JSONDecodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDecodable.swift; sourceTree = "<group>"; };
+		7A2859242035A1EB00A20B94 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		7A2859262035AABA00A20B94 /* GenericJSONDecodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericJSONDecodable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B698D56DDCD917A250E6C3B /* Pods_RxCityApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +71,8 @@
 			children = (
 				7A2858F220358AA700A20B94 /* RxCityApp */,
 				7A2858F120358AA700A20B94 /* Products */,
+				F328037B453147845B47A412 /* Pods */,
+				7BA1C60D14754BB7A589936D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +87,84 @@
 		7A2858F220358AA700A20B94 /* RxCityApp */ = {
 			isa = PBXGroup;
 			children = (
-				7A2858F320358AA700A20B94 /* AppDelegate.swift */,
+				7A2859212035A15C00A20B94 /* Utils */,
+				7A28591F2035A13F00A20B94 /* Models */,
+				7A28590920358CFC00A20B94 /* Webservices */,
 				7A2858F520358AA700A20B94 /* ViewController.swift */,
 				7A2858F720358AA700A20B94 /* Main.storyboard */,
-				7A2858FD20358AA700A20B94 /* Assets.xcassets */,
-				7A2858FF20358AA700A20B94 /* LaunchScreen.storyboard */,
+				7A28590820358AB900A20B94 /* Supporting Files */,
 				7A28590220358AA700A20B94 /* Info.plist */,
-				7A2858FA20358AA700A20B94 /* RxCityApp.xcdatamodeld */,
 			);
 			path = RxCityApp;
+			sourceTree = "<group>";
+		};
+		7A28590820358AB900A20B94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A2858F320358AA700A20B94 /* AppDelegate.swift */,
+				7A2858FD20358AA700A20B94 /* Assets.xcassets */,
+				7A2858FF20358AA700A20B94 /* LaunchScreen.storyboard */,
+				7A2858FA20358AA700A20B94 /* RxCityApp.xcdatamodeld */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A28590920358CFC00A20B94 /* Webservices */ = {
+			isa = PBXGroup;
+			children = (
+				7A2859142035930700A20B94 /* HTTPRequestScheme.swift */,
+				7A28590E20358DE800A20B94 /* HTTPRequestMethod.swift */,
+				7A28590C20358D8100A20B94 /* Resource.swift */,
+				7A28591D20359A9800A20B94 /* Webservice.swift */,
+				7A285918203594DF00A20B94 /* APIUrlComponents */,
+				7A28591B2035997400A20B94 /* CountriesAPI.swift */,
+			);
+			path = Webservices;
+			sourceTree = "<group>";
+		};
+		7A285918203594DF00A20B94 /* APIUrlComponents */ = {
+			isa = PBXGroup;
+			children = (
+				7A2859102035925800A20B94 /* APIBase.swift */,
+				7A285912203592CB00A20B94 /* APIPath.swift */,
+				7A2859162035944500A20B94 /* APIParameter.swift */,
+				7A285919203594FE00A20B94 /* APIUrl.swift */,
+			);
+			path = APIUrlComponents;
+			sourceTree = "<group>";
+		};
+		7A28591F2035A13F00A20B94 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7A2859242035A1EB00A20B94 /* Country.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7A2859212035A15C00A20B94 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7A2859222035A16800A20B94 /* JSONDecodable.swift */,
+				7A2859262035AABA00A20B94 /* GenericJSONDecodable.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7BA1C60D14754BB7A589936D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				105307DA783AC529A6BB4896 /* Pods_RxCityApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F328037B453147845B47A412 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C27C38039228FAF756FBF93 /* Pods-RxCityApp.debug.xcconfig */,
+				59DF7367B0EBC6BAACD99B96 /* Pods-RxCityApp.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A28590520358AA700A20B94 /* Build configuration list for PBXNativeTarget "RxCityApp" */;
 			buildPhases = (
+				DCC4E74265E95B74EE284BDB /* [CP] Check Pods Manifest.lock */,
 				7A2858EC20358AA700A20B94 /* Sources */,
 				7A2858ED20358AA700A20B94 /* Frameworks */,
 				7A2858EE20358AA700A20B94 /* Resources */,
+				921481BC40A2C0AD335192D9 /* [CP] Embed Pods Frameworks */,
+				BD2B025D1F7EB8E87AE7D669 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,12 +237,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		921481BC40A2C0AD335192D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RxCityApp/Pods-RxCityApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxCityApp/Pods-RxCityApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD2B025D1F7EB8E87AE7D669 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxCityApp/Pods-RxCityApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCC4E74265E95B74EE284BDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxCityApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7A2858EC20358AA700A20B94 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A2859252035A1EB00A20B94 /* Country.swift in Sources */,
+				7A28591A203594FE00A20B94 /* APIUrl.swift in Sources */,
+				7A2859112035925800A20B94 /* APIBase.swift in Sources */,
+				7A28591E20359A9800A20B94 /* Webservice.swift in Sources */,
+				7A2859172035944500A20B94 /* APIParameter.swift in Sources */,
+				7A2859152035930700A20B94 /* HTTPRequestScheme.swift in Sources */,
+				7A28591C2035997400A20B94 /* CountriesAPI.swift in Sources */,
+				7A28590F20358DE800A20B94 /* HTTPRequestMethod.swift in Sources */,
+				7A2859232035A16800A20B94 /* JSONDecodable.swift in Sources */,
 				7A2858F620358AA700A20B94 /* ViewController.swift in Sources */,
+				7A2859272035AABA00A20B94 /* GenericJSONDecodable.swift in Sources */,
+				7A28590D20358D8100A20B94 /* Resource.swift in Sources */,
+				7A285913203592CB00A20B94 /* APIPath.swift in Sources */,
 				7A2858FC20358AA700A20B94 /* RxCityApp.xcdatamodeld in Sources */,
 				7A2858F420358AA700A20B94 /* AppDelegate.swift in Sources */,
 			);
@@ -276,9 +447,11 @@
 		};
 		7A28590620358AA700A20B94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C27C38039228FAF756FBF93 /* Pods-RxCityApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9X7T8N5RV7;
 				INFOPLIST_FILE = RxCityApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ro.iliemarius.RxCityApp;
@@ -290,9 +463,11 @@
 		};
 		7A28590720358AA700A20B94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59DF7367B0EBC6BAACD99B96 /* Pods-RxCityApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9X7T8N5RV7;
 				INFOPLIST_FILE = RxCityApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ro.iliemarius.RxCityApp;
